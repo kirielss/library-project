@@ -3,7 +3,12 @@ import Button from "./Button";
 const ButtonPage = () => {
   return (
     <div>
-        < Button msg={"Oiii eu sou o Goku"} />
+      <h2>Button</h2>
+        <p>
+          O componente Button é
+        </p> 
+
+        <Button msg="Clique aqui" />
     </div>
   )
 };
