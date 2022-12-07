@@ -1,8 +1,7 @@
-
 const Button = ( {msg} ) => {
     return (
-        <div>
-            <button>{msg}</button>
+        <div >
+            <button className="text-3xl font-bold underline">{msg}</button>
         </div>
     )
 }
